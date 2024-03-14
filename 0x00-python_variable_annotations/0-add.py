@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """ Basic annotations - add """
 
-def add(a: float, b: flaot) -> float:
+def add(a: float, b: float) -> float:
     """ Type-annotated function add that takes a float argument.
         Args:
          a: float type.
