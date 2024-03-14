@@ -2,7 +2,7 @@
 """ Basic annotations - add """
 
 def add(a: float, b: float) -> float:
-    """ Type-annotated function add that takes a float argument.
+    """ Type-annotated function add that takes a float arguments.
         Args:
             a: float type.
             b: float type.
