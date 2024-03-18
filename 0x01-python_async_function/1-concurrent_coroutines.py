@@ -20,7 +20,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     for i in range(n):
         delays.append(wait_random(max_delay))
 
-    for d in asyncio.as_completed(delays):
-        orderList.append(await d)
+    for o in asyncio.as_completed(delays):
+        orderList.append(await o)
 
     return orderList
